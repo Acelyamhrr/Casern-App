@@ -18,7 +18,7 @@ namespace SAE_Caserne.Classe
     {
         public tableauDeBord() { }
 
-        public void Chargement(Form form)
+        public void Chargement()
         {
             try
             {
@@ -47,7 +47,7 @@ namespace SAE_Caserne.Classe
                 }
                 da.Fill(MesDatas.DsGlobal.Tables["MissionEnCours"]);
                 Connexion.FermerConnexion();
-                afficherMissions(form);
+                
 
             }
             catch
@@ -56,7 +56,7 @@ namespace SAE_Caserne.Classe
             }
         }
 
-        private static void afficherMissions(Form form)
+        public void afficherMissions(Panel panel)
         {
             DataTable dt = MesDatas.DsGlobal.Tables["MissionEnCours"];
 
@@ -81,7 +81,7 @@ namespace SAE_Caserne.Classe
 
                 newUserControl.Location = new Point(20, 40 + (i * 120));
                 
-                form.Controls.Add(newUserControl);
+                panel.Controls.Add(newUserControl);
             }
         }
 
