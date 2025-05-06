@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\paper\\Documents\\BUTWin\\2024-25\\2eSemestreTP2\\SAE\\sae-24\\SAE-Caserne\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09D824C6-A246-44EF-8939-83C30CC2EDDD}|SAE-Caserne\\SAE-Caserne.csproj|c:\\users\\paper\\documents\\butwin\\2024-25\\2esemestretp2\\sae\\sae-24\\sae-caserne\\sae-caserne\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{09D824C6-A246-44EF-8939-83C30CC2EDDD}|SAE-Caserne\\SAE-Caserne.csproj|solutionrelative:sae-caserne\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{09D824C6-A246-44EF-8939-83C30CC2EDDD}|SAE-Caserne\\SAE-Caserne.csproj|c:\\users\\paper\\documents\\butwin\\2024-25\\2esemestretp2\\sae\\sae-24\\sae-caserne\\sae-caserne\\frmaccueil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{09D824C6-A246-44EF-8939-83C30CC2EDDD}|SAE-Caserne\\SAE-Caserne.csproj|solutionrelative:sae-caserne\\frmaccueil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D824C6-A246-44EF-8939-83C30CC2EDDD}|SAE-Caserne\\SAE-Caserne.csproj|c:\\users\\paper\\documents\\butwin\\2024-25\\2esemestretp2\\sae\\sae-24\\sae-caserne\\sae-caserne\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D824C6-A246-44EF-8939-83C30CC2EDDD}|SAE-Caserne\\SAE-Caserne.csproj|solutionrelative:sae-caserne\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D824C6-A246-44EF-8939-83C30CC2EDDD}|SAE-Caserne\\SAE-Caserne.csproj|c:\\users\\paper\\documents\\butwin\\2024-25\\2esemestretp2\\sae\\sae-24\\sae-caserne\\sae-caserne\\frmaccueil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D824C6-A246-44EF-8939-83C30CC2EDDD}|SAE-Caserne\\SAE-Caserne.csproj|solutionrelative:sae-caserne\\frmaccueil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,12 +30,38 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmAccueil.cs",
+              "DocumentMoniker": "C:\\Users\\paper\\Documents\\BUTWin\\2024-25\\2eSemestreTP2\\SAE\\sae-24\\SAE-Caserne\\SAE-Caserne\\frmAccueil.cs",
+              "RelativeDocumentMoniker": "SAE-Caserne\\frmAccueil.cs",
+              "ToolTip": "C:\\Users\\paper\\Documents\\BUTWin\\2024-25\\2eSemestreTP2\\SAE\\sae-24\\SAE-Caserne\\SAE-Caserne\\frmAccueil.cs",
+              "RelativeToolTip": "SAE-Caserne\\frmAccueil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T15:15:30.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Connexion.cs",
+              "DocumentMoniker": "C:\\Users\\paper\\Documents\\BUTWin\\2024-25\\2eSemestreTP2\\SAE\\sae-24\\SAE-Caserne\\SAE-Caserne\\Connexion.cs",
+              "RelativeDocumentMoniker": "SAE-Caserne\\Connexion.cs",
+              "ToolTip": "C:\\Users\\paper\\Documents\\BUTWin\\2024-25\\2eSemestreTP2\\SAE\\sae-24\\SAE-Caserne\\SAE-Caserne\\Connexion.cs",
+              "RelativeToolTip": "SAE-Caserne\\Connexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T15:13:55.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\paper\\Documents\\BUTWin\\2024-25\\2eSemestreTP2\\SAE\\sae-24\\SAE-Caserne\\SAE-Caserne\\Form1.cs",
-              "RelativeDocumentMoniker": "SAE-Caserne\\Form1.cs",
-              "ToolTip": "C:\\Users\\paper\\Documents\\BUTWin\\2024-25\\2eSemestreTP2\\SAE\\sae-24\\SAE-Caserne\\SAE-Caserne\\Form1.cs [Design]",
-              "RelativeToolTip": "SAE-Caserne\\Form1.cs [Design]",
+              "Title": "frmAccueil.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\paper\\Documents\\BUTWin\\2024-25\\2eSemestreTP2\\SAE\\sae-24\\SAE-Caserne\\SAE-Caserne\\frmAccueil.cs",
+              "RelativeDocumentMoniker": "SAE-Caserne\\frmAccueil.cs",
+              "ToolTip": "C:\\Users\\paper\\Documents\\BUTWin\\2024-25\\2eSemestreTP2\\SAE\\sae-24\\SAE-Caserne\\SAE-Caserne\\frmAccueil.cs [Design]",
+              "RelativeToolTip": "SAE-Caserne\\frmAccueil.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T14:43:47.95Z",
               "EditorCaption": " [Design]"
