@@ -49,17 +49,21 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="UserControlMission">
+      <HintPath>..\..\..\UserControlMission\UserControlMission\bin\Debug\UserControlMission.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connexion.cs" />
+    <Compile Include="Classe\tableauDeBord.cs" />
+    <Compile Include="Classe\Connexion.cs" />
     <Compile Include="frmAccueil.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmAccueil.Designer.cs">
       <DependentUpon>frmAccueil.cs</DependentUpon>
     </Compile>
-    <Compile Include="mesDatas.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Classe\mesDatas.cs" />
+    <Compile Include="Classe\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmAccueil.resx">
       <DependentUpon>frmAccueil.cs</DependentUpon>

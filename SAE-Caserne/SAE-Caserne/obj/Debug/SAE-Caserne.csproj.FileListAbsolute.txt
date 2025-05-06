@@ -1,0 +1,15 @@
+C:\Users\Cl1en\Source\Repos\sae-24\SAE-Caserne\SAE-Caserne\obj\Debug\SAE-Caserne.csproj.AssemblyReference.cache
+C:\Users\Cl1en\Source\Repos\sae-24\SAE-Caserne\SAE-Caserne\obj\Debug\SAE_Caserne.frmAccueil.resources
+C:\Users\Cl1en\Source\Repos\sae-24\SAE-Caserne\SAE-Caserne\obj\Debug\SAE_Caserne.Properties.Resources.resources
+C:\Users\Cl1en\Source\Repos\sae-24\SAE-Caserne\SAE-Caserne\obj\Debug\SAE-Caserne.csproj.GenerateResource.cache
+C:\Users\Cl1en\Source\Repos\sae-24\SAE-Caserne\SAE-Caserne\obj\Debug\SAE-Caserne.csproj.CoreCompileInputs.cache
+C:\Users\Cl1en\Source\Repos\sae-24\SAE-Caserne\SAE-Caserne\bin\Debug\SAE-Caserne.exe.config
+C:\Users\Cl1en\Source\Repos\sae-24\SAE-Caserne\SAE-Caserne\bin\Debug\SAE-Caserne.exe
+C:\Users\Cl1en\Source\Repos\sae-24\SAE-Caserne\SAE-Caserne\bin\Debug\SAE-Caserne.pdb
+C:\Users\Cl1en\Source\Repos\sae-24\SAE-Caserne\SAE-Caserne\bin\Debug\System.Data.SQLite.dll
+C:\Users\Cl1en\Source\Repos\sae-24\SAE-Caserne\SAE-Caserne\bin\Debug\UserControlMission.dll
+C:\Users\Cl1en\Source\Repos\sae-24\SAE-Caserne\SAE-Caserne\bin\Debug\System.Data.SQLite.xml
+C:\Users\Cl1en\Source\Repos\sae-24\SAE-Caserne\SAE-Caserne\bin\Debug\UserControlMission.pdb
+C:\Users\Cl1en\Source\Repos\sae-24\SAE-Caserne\SAE-Caserne\obj\Debug\SAE-Case.D4E74FA9.Up2Date
+C:\Users\Cl1en\Source\Repos\sae-24\SAE-Caserne\SAE-Caserne\obj\Debug\SAE-Caserne.exe
+C:\Users\Cl1en\Source\Repos\sae-24\SAE-Caserne\SAE-Caserne\obj\Debug\SAE-Caserne.pdb
