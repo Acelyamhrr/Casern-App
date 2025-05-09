@@ -54,6 +54,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classe\AffichageEngin.cs" />
     <Compile Include="Classe\tableauDeBord.cs" />
     <Compile Include="Classe\Connexion.cs" />
     <Compile Include="frmAccueil.cs">

@@ -76,7 +76,7 @@ namespace SAE_Caserne.Classe
                     caserne,
                     missionDetails,
                     id,
-                    @"C:\Users\Cl1en\Downloads\test.jpg" 
+                    @"C:\Users\hellich\Downloads\Baumann.png"
                 );
 
                 newUserControl.Location = new Point(20, 40 + (i * 120));
