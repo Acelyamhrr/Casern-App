@@ -26,3 +26,5 @@ U:\SAE-24\sae-24\SAE-Caserne\SAE-Caserne\obj\Debug\SAE-Caserne.csproj.CoreCompil
 U:\SAE-24\sae-24\SAE-Caserne\SAE-Caserne\obj\Debug\SAE-Case.D4E74FA9.Up2Date
 U:\SAE-24\sae-24\SAE-Caserne\SAE-Caserne\obj\Debug\SAE-Caserne.exe
 U:\SAE-24\sae-24\SAE-Caserne\SAE-Caserne\obj\Debug\SAE-Caserne.pdb
+U:\SAE-24\sae-24\SAE-Caserne\SAE-Caserne\bin\Debug\UserContrltdb2.dll
+U:\SAE-24\sae-24\SAE-Caserne\SAE-Caserne\bin\Debug\UserContrltdb2.pdb

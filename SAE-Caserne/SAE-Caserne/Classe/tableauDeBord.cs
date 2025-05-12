@@ -79,11 +79,36 @@ namespace SAE_Caserne.Classe
                     @"C:\Users\hellich\Downloads\Baumann.png"
                 );
 
+                UserContrltdb2.UserControl1 pdfUserControl = new UserContrltdb2.UserControl1(
+                    @"../../Image/mission.png",
+                    @"../../Image/mission.png"
+
+
+                );
+
+                pdfUserControl.PictureBox1Clicked += (sender, e) =>
+                {
+                    MessageBox.Show("Test click");
+                    
+                };
+
+                pdfUserControl.PictureBox2Clicked += (sender, e) =>
+                {
+                    MessageBox.Show("Test click");
+                };
+
+
+
                 newUserControl.Location = new Point(20, 40 + (i * 120));
+                pdfUserControl.Location = new Point(490, 40 + (i * 120));
                 
                 panel.Controls.Add(newUserControl);
+                panel.Controls.Add(pdfUserControl);
             }
         }
+
+
+        
 
         
     }

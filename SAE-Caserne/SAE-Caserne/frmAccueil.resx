@@ -121,7 +121,7 @@
   <data name="pictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vgAADr4B6kKxwAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAADevSURBVHhe7Z0L
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAADevSURBVHhe7Z0L
         uFxVefcjcod6AVur1SraahXv9uvTi/bzfkdtbVrrV20++jlPZmcPJwdiA4gyhVQRDZcAIiKKAYmJEECu
         glSByDWJFRUIBWKASG4kJCRckpO837vOeY8c9qxzzp6ZvffsWfv3e57fc3ggzMlae633/c/MvkwBAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -453,7 +453,7 @@
   <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAGsYSURBVHhe7Z0H
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAGsYSURBVHhe7Z0H
         mBVFuvdnvfvt7k1797vf3vVePal7hmFmzgyua47XsGYRDBgQc8CwuuqqmFAMKwZQzCIwZ4aogKLkKKCo
         gGteXXV1zRkYMJGpr+pMjzaH/8x0n1OnT/ep/+95fs/dK1Az1fXW+3aorq4ghBBCCCGEEEIIIYQQQggh
         hBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQggh
@@ -1212,7 +1212,7 @@
   <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAFgiSURBVHhe7d0J
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAFgiSURBVHhe7d0J
         dJTl3Tbw1Fo/a1tfAiiQkD1hS4CwBMoizgygUotaayqZGZC64IbWfbeNilK1brjVrbXaulCXutS6V6tF
         RdxFVLJvsyWBAIGw5f/d9+SegjN/IMs8+3Wd8zucr9973vOePpPrembmmedJQRDE3KEJi35As+elkds/
         llz+o8jlnSf+PV38eym5fEvFf34PuX2Pkcf3gvj3NeE9YZX4zyvEv9VCa5ydAklr/2+IkkaV/TM6d1cz

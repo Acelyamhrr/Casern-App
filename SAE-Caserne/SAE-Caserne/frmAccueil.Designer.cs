@@ -443,7 +443,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(517, 409);
+            this.tabPage1.Size = new System.Drawing.Size(638, 509);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             // 
@@ -453,7 +453,7 @@
             this.pnl_tdb.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.pnl_tdb.Location = new System.Drawing.Point(-4, 0);
             this.pnl_tdb.Name = "pnl_tdb";
-            this.pnl_tdb.Size = new System.Drawing.Size(525, 431);
+            this.pnl_tdb.Size = new System.Drawing.Size(642, 509);
             this.pnl_tdb.TabIndex = 0;
             this.pnl_tdb.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_tdb_Paint);
             // 
@@ -464,7 +464,7 @@
             this.tabControl1.Location = new System.Drawing.Point(234, 41);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(525, 435);
+            this.tabControl1.Size = new System.Drawing.Size(646, 535);
             this.tabControl1.TabIndex = 1;
             // 
             // frmAccueil
@@ -472,7 +472,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SlateBlue;
-            this.ClientSize = new System.Drawing.Size(800, 506);
+            this.ClientSize = new System.Drawing.Size(943, 636);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
