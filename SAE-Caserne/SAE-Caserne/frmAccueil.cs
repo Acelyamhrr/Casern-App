@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using iText.Layout.Element;
 using Pinpon;
 using SAE_Caserne.Classe;
 using UserControlMission;
@@ -18,29 +19,33 @@ namespace SAE_Caserne
     public partial class frmAccueil : Form
     {
         private AffichageEngin affichageEngin;
+        private tableauDeBord tableau = new tableauDeBord();
+       
+      
+
         public frmAccueil()
         {
             InitializeComponent();
+           
           
         }
 
         private void frmAccueil_Load(object sender, EventArgs e)
         {
+            
+
             // enlever les bouttons du tabControl
             tabControl1.Appearance = TabAppearance.FlatButtons;
             tabControl1.ItemSize = new Size(0, 1);
             tabControl1.SizeMode = TabSizeMode.Fixed;
             // charger les éléments dans pnl_tdb
-            tableauDeBord tableau = new tableauDeBord();
+          
             tableau.Chargement();
             tableau.afficherMissions(pnl_tdb);
 
             // charger les éléments de affichageEngin
             affichageEngin = new AffichageEngin(cboCaserne, lblNumEngin, lblDateRecep, lblMission, lblPanne, picEngin);
             affichageEngin.Initialiser();
-
-
-            
 
         }
         private void btnPrecedent_Click(object sender, EventArgs e)
@@ -107,6 +112,22 @@ namespace SAE_Caserne
 
         }
 
-       
+        private void btn_enCours_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chbx_enCours_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chbx_enCours.Checked)
+            {
+                tableau.afficherMissions(pnl_tdb, 0);
+            }
+            else {
+                tableau.afficherMissions(pnl_tdb, 1);
+            }
+        }
+
+        
     }
 }

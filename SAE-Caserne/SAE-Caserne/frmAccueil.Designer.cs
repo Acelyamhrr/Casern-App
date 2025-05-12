@@ -63,7 +63,15 @@
             this.btnPrecedent = new System.Windows.Forms.Button();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.pnl_tdb = new System.Windows.Forms.Panel();
+            this.chbx_enCours = new System.Windows.Forms.CheckBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.pnl_login = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_loginBar = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel6.SuspendLayout();
@@ -80,12 +88,15 @@
             this.pnlAfficherEngin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picEngin)).BeginInit();
             this.tabPage1.SuspendLayout();
+            this.pnl_tdb.SuspendLayout();
             this.tabControl1.SuspendLayout();
+            this.pnl_login.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.panel1.Controls.Add(this.pictureBox6);
             this.panel1.Controls.Add(this.panel6);
             this.panel1.Controls.Add(this.panel5);
@@ -94,13 +105,13 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(-1, -2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(198, 508);
+            this.panel1.Size = new System.Drawing.Size(198, 592);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(160, 474);
+            this.pictureBox6.Location = new System.Drawing.Point(160, 555);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(38, 34);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -129,7 +140,7 @@
             // 
             // btnStatistiques
             // 
-            this.btnStatistiques.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btnStatistiques.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btnStatistiques.FlatAppearance.BorderColor = System.Drawing.Color.Turquoise;
             this.btnStatistiques.FlatAppearance.BorderSize = 0;
             this.btnStatistiques.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -163,7 +174,7 @@
             // 
             // btnTpersonnel
             // 
-            this.btnTpersonnel.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btnTpersonnel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btnTpersonnel.FlatAppearance.BorderColor = System.Drawing.Color.Turquoise;
             this.btnTpersonnel.FlatAppearance.BorderSize = 0;
             this.btnTpersonnel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -197,7 +208,7 @@
             // 
             // btnGengin
             // 
-            this.btnGengin.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btnGengin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btnGengin.FlatAppearance.BorderColor = System.Drawing.Color.Turquoise;
             this.btnGengin.FlatAppearance.BorderSize = 0;
             this.btnGengin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -233,7 +244,7 @@
             // 
             // btnNmission
             // 
-            this.btnNmission.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btnNmission.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btnNmission.FlatAppearance.BorderColor = System.Drawing.Color.Turquoise;
             this.btnNmission.FlatAppearance.BorderSize = 0;
             this.btnNmission.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -267,7 +278,7 @@
             // 
             // btnTdb
             // 
-            this.btnTdb.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btnTdb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btnTdb.FlatAppearance.BorderColor = System.Drawing.Color.Turquoise;
             this.btnTdb.FlatAppearance.BorderSize = 0;
             this.btnTdb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -287,14 +298,14 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(517, 409);
+            this.tabPage2.Size = new System.Drawing.Size(638, 509);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // pnlAfficherEngin
             // 
-            this.pnlAfficherEngin.BackColor = System.Drawing.Color.SlateBlue;
+            this.pnlAfficherEngin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.pnlAfficherEngin.Controls.Add(this.picEngin);
             this.pnlAfficherEngin.Controls.Add(this.btnAllerFin);
             this.pnlAfficherEngin.Controls.Add(this.btnAllerPrem);
@@ -310,7 +321,7 @@
             this.pnlAfficherEngin.Controls.Add(this.btnPrecedent);
             this.pnlAfficherEngin.Location = new System.Drawing.Point(0, 0);
             this.pnlAfficherEngin.Name = "pnlAfficherEngin";
-            this.pnlAfficherEngin.Size = new System.Drawing.Size(517, 431);
+            this.pnlAfficherEngin.Size = new System.Drawing.Size(638, 509);
             this.pnlAfficherEngin.TabIndex = 11;
             // 
             // picEngin
@@ -450,29 +461,110 @@
             // pnl_tdb
             // 
             this.pnl_tdb.AutoScroll = true;
-            this.pnl_tdb.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.pnl_tdb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.pnl_tdb.Controls.Add(this.chbx_enCours);
             this.pnl_tdb.Location = new System.Drawing.Point(-4, 0);
             this.pnl_tdb.Name = "pnl_tdb";
             this.pnl_tdb.Size = new System.Drawing.Size(642, 509);
             this.pnl_tdb.TabIndex = 0;
             this.pnl_tdb.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_tdb_Paint);
             // 
+            // chbx_enCours
+            // 
+            this.chbx_enCours.AllowDrop = true;
+            this.chbx_enCours.AutoSize = true;
+            this.chbx_enCours.Location = new System.Drawing.Point(26, 17);
+            this.chbx_enCours.Name = "chbx_enCours";
+            this.chbx_enCours.Size = new System.Drawing.Size(68, 17);
+            this.chbx_enCours.TabIndex = 0;
+            this.chbx_enCours.Text = "En cours";
+            this.chbx_enCours.UseVisualStyleBackColor = true;
+            this.chbx_enCours.CheckedChanged += new System.EventHandler(this.chbx_enCours_CheckedChanged);
+            // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(234, 41);
+            this.tabControl1.Location = new System.Drawing.Point(238, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(646, 535);
             this.tabControl1.TabIndex = 1;
             // 
+            // pnl_login
+            // 
+            this.pnl_login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.pnl_login.Controls.Add(this.textBox2);
+            this.pnl_login.Controls.Add(this.textBox1);
+            this.pnl_login.Controls.Add(this.pictureBox7);
+            this.pnl_login.Controls.Add(this.button1);
+            this.pnl_login.Controls.Add(this.label1);
+            this.pnl_login.Controls.Add(this.lbl_loginBar);
+            this.pnl_login.Location = new System.Drawing.Point(-22, -24);
+            this.pnl_login.Name = "pnl_login";
+            this.pnl_login.Size = new System.Drawing.Size(984, 634);
+            this.pnl_login.TabIndex = 3;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(215, 400);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 33.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(143, 133);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(243, 48);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Casern\'App";
+            // 
+            // lbl_loginBar
+            // 
+            this.lbl_loginBar.BackColor = System.Drawing.Color.White;
+            this.lbl_loginBar.Location = new System.Drawing.Point(119, 453);
+            this.lbl_loginBar.Name = "lbl_loginBar";
+            this.lbl_loginBar.Size = new System.Drawing.Size(281, 3);
+            this.lbl_loginBar.TabIndex = 4;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(577, 22);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(386, 589);
+            this.pictureBox7.TabIndex = 8;
+            this.pictureBox7.TabStop = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Location = new System.Drawing.Point(201, 302);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 9;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(201, 345);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 10;
+            // 
             // frmAccueil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SlateBlue;
-            this.ClientSize = new System.Drawing.Size(943, 636);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(53)))), ((int)(((byte)(53)))));
+            this.ClientSize = new System.Drawing.Size(941, 586);
+            this.Controls.Add(this.pnl_login);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
@@ -497,7 +589,12 @@
             this.pnlAfficherEngin.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picEngin)).EndInit();
             this.tabPage1.ResumeLayout(false);
+            this.pnl_tdb.ResumeLayout(false);
+            this.pnl_tdb.PerformLayout();
             this.tabControl1.ResumeLayout(false);
+            this.pnl_login.ResumeLayout(false);
+            this.pnl_login.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -539,6 +636,14 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Panel pnl_tdb;
         private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.CheckBox chbx_enCours;
+        private System.Windows.Forms.Panel pnl_login;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl_loginBar;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

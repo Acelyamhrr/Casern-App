@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Pinpon;
 using UserControlMission;
+using static iText.StyledXmlParser.Jsoup.Select.Evaluator;
 
 
 namespace SAE_Caserne.Classe
@@ -28,7 +29,9 @@ namespace SAE_Caserne.Classe
                         ns.libelle AS missionType,
                         m.dateHeureDepart AS missionDate,
                         m.motifAppel AS missionDetails,
-                        c.nom AS caserne
+                        c.nom AS caserne,
+                        m.terminee AS etatMission,
+                        m.compteRendu AS compteRendu
                     FROM Mission m
                     LEFT JOIN NatureSinistre ns ON ns.id = m.idNatureSinistre
                     LEFT JOIN Caserne c ON c.id = m.idCaserne
@@ -56,19 +59,41 @@ namespace SAE_Caserne.Classe
             }
         }
 
-        public void afficherMissions(Panel panel)
+        public void afficherMissions(Panel panel, int filtreEtat = 1)
         {
+
+            int position = 0;
             DataTable dt = MesDatas.DsGlobal.Tables["MissionEnCours"];
+            for (int i = panel.Controls.Count - 1; i >= 0; i--)
+            {
+                Control ctrl = panel.Controls[i];
+                if (ctrl.Tag != null && ctrl.Tag.ToString() == "mission")
+                {
+                    panel.Controls.RemoveAt(i);
+                    ctrl.Dispose();
+                }
+            }
 
             for (int i = 0; i < dt.Rows.Count; i++)
             {
+               
+                int index = i;
                 DataRow row = dt.Rows[i];
+                int etatMission = Convert.ToInt32(row["etatMission"]);
+
+               
+                if (filtreEtat == 0 && etatMission == 1)
+                {
+                    continue; 
+                }
 
                 string id = row["id"].ToString();
                 string missionType = row["missionType"].ToString();
                 string missionDate = row["missionDate"].ToString();
                 string missionDetails = row["missionDetails"].ToString();
                 string caserne = row["caserne"].ToString();
+               
+                string compteRendu = row["compteRendu"].ToString();
 
                 UserControlMission.UserControl1 newUserControl = new UserControlMission.UserControl1(
                     missionType,
@@ -76,7 +101,7 @@ namespace SAE_Caserne.Classe
                     caserne,
                     missionDetails,
                     id,
-                    @"C:\Users\hellich\Downloads\Baumann.png"
+                    @"../../Image/mission.png"
                 );
 
                 UserContrltdb2.UserControl1 pdfUserControl = new UserContrltdb2.UserControl1(
@@ -89,6 +114,16 @@ namespace SAE_Caserne.Classe
                 pdfUserControl.PictureBox1Clicked += (sender, e) =>
                 {
                     MessageBox.Show("Test click");
+                    if(etat(index) == true)
+                    {
+                        GenererPdf.genererPdfTermine("caserne.pdf", id, missionType, missionDate, missionDetails, caserne, etatMission, compteRendu);
+                        MessageBox.Show("le pdf à été générer");
+                    }
+                    else
+                    {
+                        GenererPdf.genererPdfEnCours("caserne.pdf", id, missionType, missionDate, missionDetails, caserne, etatMission, compteRendu);
+                        MessageBox.Show("le pdf à été générer");
+                    }
                     
                 };
 
@@ -97,19 +132,37 @@ namespace SAE_Caserne.Classe
                     MessageBox.Show("Test click");
                 };
 
-
-
-                newUserControl.Location = new Point(20, 40 + (i * 120));
-                pdfUserControl.Location = new Point(490, 40 + (i * 120));
-                
+                newUserControl.Location = new Point(20, 40 + (position * 120));
+                pdfUserControl.Location = new Point(490, 40 + (position * 120));
+               
+                newUserControl.Tag = "mission";
+                pdfUserControl.Tag = "mission";
+               
                 panel.Controls.Add(newUserControl);
                 panel.Controls.Add(pdfUserControl);
+                position++;
+                
             }
         }
 
+        public Boolean etat(int i)
+        {
+            DataTable dt = MesDatas.DsGlobal.Tables["MissionEnCours"];
+            DataRow row = dt.Rows[i];
+            int etat = Convert.ToInt32(row["etatMission"]);
+            if(etat == 1)
+            {
+                return true;
+            }
+            return false;
+            
+        }
+
+       
+
 
         
-
         
+
     }
 }
