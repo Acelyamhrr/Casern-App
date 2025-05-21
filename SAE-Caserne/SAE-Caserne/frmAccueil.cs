@@ -47,6 +47,8 @@ namespace SAE_Caserne
             affichageEngin = new AffichageEngin(cboCaserne, lblNumEngin, lblDateRecep, lblMission, lblPanne, picEngin);
             affichageEngin.Initialiser();
 
+            AjouterMission.RemplirComboboxNsinistre(cmb_nsinistre);
+
         }
         private void btnPrecedent_Click(object sender, EventArgs e)
         {
@@ -128,6 +130,32 @@ namespace SAE_Caserne
             }
         }
 
-        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pnl_login.Visible = false;
+        }
+
+        private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void cmb_nsinistre_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            AjouterMission.RemplirComboboxNsinistre(cmb_nsinistre);
+            MessageBox.Sg
+            MessageBox.Show(cmb_nsinistre.SelectedItem.ToString());
+        }
+
+        private void btnNmission_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 2;
+        }
+
+        private void cmb_nsinistre_Click(object sender, EventArgs e)
+        {
+            AjouterMission.RemplirComboboxNsinistre(cmb_nsinistre);
+        }
     }
 }
