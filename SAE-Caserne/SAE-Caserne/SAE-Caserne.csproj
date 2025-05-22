@@ -151,6 +151,7 @@
     <Compile Include="Classe\AffichageEngin.cs" />
     <Compile Include="Classe\AjouterMission.cs" />
     <Compile Include="Classe\GenererPdf.cs" />
+    <Compile Include="Classe\Login.cs" />
     <Compile Include="Classe\seConnecter.cs" />
     <Compile Include="Classe\tableauDeBord.cs" />
     <Compile Include="Classe\Connexion.cs" />

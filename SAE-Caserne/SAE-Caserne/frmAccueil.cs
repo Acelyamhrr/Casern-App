@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using iText.IO.Codec;
 using iText.Layout.Element;
 using Pinpon;
 using SAE_Caserne.Classe;
@@ -20,19 +21,19 @@ namespace SAE_Caserne
     {
         private AffichageEngin affichageEngin;
         private tableauDeBord tableau = new tableauDeBord();
-       
-      
+        Login login = new Login();
+        bool administrateur = false;
+
+
 
         public frmAccueil()
         {
-            InitializeComponent();
-           
-          
+           InitializeComponent();
+            
         }
 
         private void frmAccueil_Load(object sender, EventArgs e)
         {
-            
 
             // enlever les bouttons du tabControl
             tabControl1.Appearance = TabAppearance.FlatButtons;
@@ -48,6 +49,9 @@ namespace SAE_Caserne
             affichageEngin.Initialiser();
 
             AjouterMission.RemplirComboboxNsinistre(cmb_nsinistre);
+
+            pnl_login.BringToFront();
+
 
         }
         private void btnPrecedent_Click(object sender, EventArgs e)
@@ -144,7 +148,7 @@ namespace SAE_Caserne
         {
 
             AjouterMission.RemplirComboboxNsinistre(cmb_nsinistre);
-            MessageBox.Sg
+            
             MessageBox.Show(cmb_nsinistre.SelectedItem.ToString());
         }
 
@@ -156,6 +160,37 @@ namespace SAE_Caserne
         private void cmb_nsinistre_Click(object sender, EventArgs e)
         {
             AjouterMission.RemplirComboboxNsinistre(cmb_nsinistre);
+        }
+
+        private void btnNonAdmin_Click(object sender, EventArgs e)
+        {
+            errorProvider1.Clear();
+            pnl_login.Visible = false;
+        }
+
+        private void btnSeConnecter_Click(object sender, EventArgs e)
+        {
+            errorProvider1.Clear();
+            if (txtIdentifiant.Text.Length == 0 || txtMDP.Text.Length == 0)
+            {
+                errorProvider1.SetError(btnSeConnecter, "Veuillez renseigner un identifiant et un mot de passe.");
+            }
+            else
+            {
+                bool idCorrects = login.verifIdMdp(txtIdentifiant.Text, txtMDP.Text);
+
+                if (!idCorrects)
+                {
+                    errorProvider1.SetError(btnSeConnecter, "Identifiant ou mot de passe incorrect.");
+                }
+                else
+                {
+                    administrateur = true;
+                    pnl_login.Visible = false;
+                }
+            }
+
+            //MessageBox.Show("DEBUG : Admin ? " + administrateur);
         }
     }
 }
