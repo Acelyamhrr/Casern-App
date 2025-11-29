@@ -1,0 +1,31 @@
+# Build outputs
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# NuGet
+packages/
+*.nupkg
+
+# Debug/Release folders
+Debug/
+Release/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS files
+Thumbs.db
+.DS_Store
